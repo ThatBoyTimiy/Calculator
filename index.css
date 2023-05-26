@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: center;
     background-color: rgb(77, 77, 72);
-    border-radius: ;
+    border-radius: 15px;
     width: fit-content;
     margin-left: 39%;
     padding: 15px;
@@ -28,6 +28,7 @@ header{
     width: 90%;
     height: auto;
     border-color: rgb(249, 12, 12);
+    border-radius: 5px;
     font-size: 25px;
 
 }
@@ -35,7 +36,7 @@ header{
 #display{
     color: cornsilk;
     background-color: brown;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 15px;
 }
 

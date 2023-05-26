@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope I Remember Calculator</title>
+</head>
+<body>
+    <div class="calc">
+        <form name="calcs">
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <input type="text" id="display" name="display" disabled>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="b1" value="1" name="one" onclick="calcs.display.value += '1'"></td>
+                    <td><input type="button" id="b1" value="2" name="two" onclick="calcs.display.value += '2'"></td>
+                    <td><input type="button" id="b1" value="3" name="three" onclick="calcs.display.value += '3'"></td>
+                    <td><input type="button" id="b1" class="operator" value="+" name="addition" onclick="calcs.display.value += '+'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="b1" value="4" name="four" onclick="calcs.display.value += '4'"></td>
+                    <td><input type="button" id="b1" value="5" name="five" onclick="calcs.display.value += '5'"></td>
+                    <td><input type="button" id="b1" value="6" name="six" onclick="calcs.display.value += '6'"></td>
+                    <td><input type="button" id="b1" class="operator" value="-" name="minus" onclick="calcs.display.value += '-'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="b1" value="7" name="seven" onclick="calcs.display.value += '7'"></td>
+                    <td><input type="button" id="b1" value="8" name="eight" onclick="calcs.display.value += '8'"></td>
+                    <td><input type="button" id="b1" value="9" name="nine" onclick="calcs.display.value += '9'"></td>
+                    <td><input type="button" id="b1" value="*" name="multiplication" onclick="calcs.display.value += '*'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" id="b1" value="C" name="clear" onclick="calcs.display.value = ''"></td>
+                    <td><input type="button" id="b1" value="0" name="zero" onclick="calcs.display.value += '0'"></td>
+                    <td><input type="button" id="b1" value="=" name="equal" onclick="calcs.display.value = eval(calcs.display.value)"></td>
+                    <td><input type="button" id="b1" value="/" name="division" onclick="calcs.display.value += '/'"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
